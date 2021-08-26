@@ -1,0 +1,5 @@
+<expresion>::=<sentencia><operadores><sentencia>|<expresionunaria>
+<sentencia>::=( <expresionunaria><operadores><expresionunaria>) 
+<expresionunaria>::= <operando>|not <operando>
+<operando>::=T |F
+<operadores>::=or |and |=>

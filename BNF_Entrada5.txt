@@ -1,0 +1,9 @@
+<Equation>::=<BIN>|<Term>
+<Term>::=( <Number>) |<Number>
+<NEG>::=- |~ 
+<NO_CERO>::=1 |2 |3 
+<DIGIT>::=0 |<NO_CERO>
+<BIN>::=<Term><Operator><Term>
+<Number>::=<NEG><NO_CERO><NUM>|<NO_CERO><NUM>
+<Operator>::=+ |- |* |/ |^ 
+<NUM>::=<DIGIT><DIGIT>|<DIGIT>
